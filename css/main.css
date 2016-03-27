@@ -1,0 +1,78 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.cards {
+  list-style-type: none;
+}
+
+.card {
+  display: block;
+}
+
+.card-img img{
+  width: 50px;
+  text-align: center;
+}
+
+.card-body h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.card-body p {
+
+}
+
+@media only screen and (min-width: 25em) {
+  .card-img{
+    display: inline-block;
+  }
+  .card-body {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+}
